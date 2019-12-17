@@ -4493,7 +4493,7 @@ var $async$rE=P.O(function(c,d){if(c===1)return P.K(d,t)
 while(true)switch(u){case 0:r=new P.fO().az(new H.c5("iis:"))
 q=P.d
 u=3
-return P.E(G.dr("http://streetfoodapp.herokuapp.com/auth/token","username="+H.j(a)+"&password="+H.j(b)+"&grant_type=password",P.a0(["Authorization","Basic "+r,"Content-Type","application/x-www-form-urlencoded; charset=utf-8","Accept","*/*"],q,q)),$async$rE)
+return P.E(G.dr("https://streetfoodapp.herokuapp.com/auth/token","username="+H.j(a)+"&password="+H.j(b)+"&grant_type=password",P.a0(["Authorization","Basic "+r,"Content-Type","application/x-www-form-urlencoded; charset=utf-8","Accept","*/*"],q,q)),$async$rE)
 case 3:p=d
 if(p.b!==200){s=""
 u=1
@@ -4506,7 +4506,7 @@ var $async$rN=P.O(function(d,e){if(d===1)return P.K(e,t)
 while(true)switch(u){case 0:s=$.af().c
 r=P.d
 u=2
-return P.E(G.dr("http://streetfoodapp.herokuapp.com/register",C.f.bh(P.ur(["username",H.j(a),"password",H.j(b),"role",H.j(c)]),null),P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j(s)],r,r)),$async$rN)
+return P.E(G.dr("https://streetfoodapp.herokuapp.com/register",C.f.bh(P.ur(["username",H.j(a),"password",H.j(b),"role",H.j(c)]),null),P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j(s)],r,r)),$async$rN)
 case 2:return P.L(null,t)}})
 return P.M($async$rN,t)},
 jj:function(a){var u=0,t=P.N([P.h,N.aA]),s,r,q,p,o
@@ -4516,7 +4516,7 @@ q=J
 p=H
 o=C.f
 u=3
-return P.E(G.cX("http://streetfoodapp.herokuapp.com/users",P.a0(["Authorization","Bearer "+H.j(a==null?$.af().c:a)],r,r)),$async$jj)
+return P.E(G.cX("https://streetfoodapp.herokuapp.com/users",P.a0(["Authorization","Bearer "+H.j(a==null?$.af().c:a)],r,r)),$async$jj)
 case 3:s=q.co(p.cD(o.aA(0,c,null)),new X.rD(),N.aA).aj(0)
 u=1
 break
@@ -4529,7 +4529,7 @@ q=J
 p=H
 o=C.f
 u=3
-return P.E(G.cX("http://streetfoodapp.herokuapp.com/products",P.a0(["Authorization","Bearer "+H.j($.af().c)],r,r)),$async$rA)
+return P.E(G.cX("https://streetfoodapp.herokuapp.com/products",P.a0(["Authorization","Bearer "+H.j($.af().c)],r,r)),$async$rA)
 case 3:s=q.co(p.cD(o.aA(0,b,null)),new X.rB(),T.F).aj(0)
 u=1
 break
@@ -4540,7 +4540,7 @@ var $async$rt=P.O(function(c,d){if(c===1)return P.K(d,t)
 while(true)switch(u){case 0:r=P.d
 q=P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],r,r)
 u=3
-return P.E(G.dr("http://streetfoodapp.herokuapp.com/products",C.f.bh(P.a0(["name",a],r,r),null),q),$async$rt)
+return P.E(G.dr("https://streetfoodapp.herokuapp.com/products",C.f.bh(P.a0(["name",a],r,r),null),q),$async$rt)
 case 3:p=d
 o=H.y(J.aI(C.f.aA(0,B.dp(J.aI(U.dm(p.e).c.a,"charset")).aP(0,p.x),null),"id"))
 C.b.G(b,new X.ru(o))
@@ -4553,7 +4553,7 @@ r7:function(a){var u=0,t=P.N(null),s
 var $async$r7=P.O(function(b,c){if(b===1)return P.K(c,t)
 while(true)switch(u){case 0:s=P.d
 u=2
-return P.E(G.ej("http://streetfoodapp.herokuapp.com/products/"+H.j(a),P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],s,s)),$async$r7)
+return P.E(G.ej("https://streetfoodapp.herokuapp.com/products/"+H.j(a),P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],s,s)),$async$r7)
 case 2:return P.L(null,t)}})
 return P.M($async$r7,t)},
 fH:function(a,b,c){var u=0,t=P.N(null),s,r,q
@@ -4563,7 +4563,7 @@ break
 case 2:s=P.d
 r=P.a0(["name",H.j(c)],s,s)
 u=5
-return P.E(G.rK(P.q1("http","streetfoodapp.herokuapp.com","/products/"+H.j(a),r),null,P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],s,s)),$async$fH)
+return P.E(G.rK(P.q1("https","streetfoodapp.herokuapp.com","/products/"+H.j(a),r),null,P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],s,s)),$async$fH)
 case 5:q=e
 P.fG(B.dp(J.aI(U.dm(q.e).c.a,"charset")).aP(0,q.x))
 u=3
@@ -4572,7 +4572,7 @@ case 4:u=b==="IngredientRemove"?6:7
 break
 case 6:s=P.d
 u=8
-return P.E(G.ej("http://streetfoodapp.herokuapp.com/products/"+H.j(a)+"/ingredients/"+H.j(c),P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],s,s)),$async$fH)
+return P.E(G.ej("https://streetfoodapp.herokuapp.com/products/"+H.j(a)+"/ingredients/"+H.j(c),P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],s,s)),$async$fH)
 case 8:q=e
 P.fG(B.dp(J.aI(U.dm(q.e).c.a,"charset")).aP(0,q.x))
 case 7:case 3:return P.L(null,t)}})
@@ -4583,7 +4583,7 @@ while(true)switch(u){case 0:r=P.d
 o=H
 n=C.f
 u=3
-return P.E(G.cX("http://streetfoodapp.herokuapp.com/products/"+H.j(a),P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],r,r)),$async$rl)
+return P.E(G.cX("https://streetfoodapp.herokuapp.com/products/"+H.j(a),P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],r,r)),$async$rl)
 case 3:q=o.a(n.aA(0,c,null),"$iC")
 p=new T.F()
 r=J.a9(q)
@@ -4601,7 +4601,7 @@ q=J
 p=H
 o=C.f
 u=3
-return P.E(G.cX("http://streetfoodapp.herokuapp.com/ingredients",P.a0(["Authorization","Bearer "+H.j($.af().c)],r,r)),$async$ry)
+return P.E(G.cX("https://streetfoodapp.herokuapp.com/ingredients",P.a0(["Authorization","Bearer "+H.j($.af().c)],r,r)),$async$ry)
 case 3:s=q.co(p.cD(o.aA(0,b,null)),new X.rz(),A.a6).aj(0)
 u=1
 break
@@ -4612,7 +4612,7 @@ var $async$rs=P.O(function(b,c){if(b===1)return P.K(c,t)
 while(true)switch(u){case 0:r=P.d
 q=P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j($.af().c)],r,r)
 u=3
-return P.E(G.dr("http://streetfoodapp.herokuapp.com/ingredients",C.f.bh(P.a0(["name",a],r,r),null),q),$async$rs)
+return P.E(G.dr("https://streetfoodapp.herokuapp.com/ingredients",C.f.bh(P.a0(["name",a],r,r),null),q),$async$rs)
 case 3:p=c
 s=H.y(J.aI(H.a(C.f.aA(0,B.dp(J.aI(U.dm(p.e).c.a,"charset")).aP(0,p.x),null),"$iC"),"id"))
 u=1
@@ -4623,7 +4623,7 @@ r6:function(a){var u=0,t=P.N(null),s
 var $async$r6=P.O(function(b,c){if(b===1)return P.K(c,t)
 while(true)switch(u){case 0:s=P.d
 u=2
-return P.E(G.ej("http://streetfoodapp.herokuapp.com/ingredients/"+H.j(a),P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j($.af().c)],s,s)),$async$r6)
+return P.E(G.ej("https://streetfoodapp.herokuapp.com/ingredients/"+H.j(a),P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j($.af().c)],s,s)),$async$r6)
 case 2:return P.L(null,t)}})
 return P.M($async$r6,t)},
 rw:function(){var u=0,t=P.N([P.h,X.an]),s,r,q,p
@@ -4632,7 +4632,7 @@ while(true)switch(u){case 0:r=J
 q=H
 p=C.f
 u=3
-return P.E(G.cX("http://streetfoodapp.herokuapp.com/events",null),$async$rw)
+return P.E(G.cX("https://streetfoodapp.herokuapp.com/events",null),$async$rw)
 case 3:s=r.co(q.cD(p.aA(0,b,null)),new X.rx(),X.an).aj(0)
 u=1
 break
@@ -4643,7 +4643,7 @@ var $async$rq=P.O(function(e,f){if(e===1)return P.K(f,t)
 while(true)switch(u){case 0:r=P.d
 q=P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j($.af().c)],r,r)
 u=3
-return P.E(G.dr("http://streetfoodapp.herokuapp.com/events",C.f.bh(P.a0(["name",a,"date",b],r,r),null),q),$async$rq)
+return P.E(G.dr("https://streetfoodapp.herokuapp.com/events",C.f.bh(P.a0(["name",a,"date",b],r,r),null),q),$async$rq)
 case 3:p=f
 o=H.y(J.aI(C.f.aA(0,B.dp(J.aI(U.dm(p.e).c.a,"charset")).aP(0,p.x),null),"id"))
 C.b.G(c,new X.rr(o,d))
@@ -4656,14 +4656,14 @@ r5:function(a){var u=0,t=P.N(null),s
 var $async$r5=P.O(function(b,c){if(b===1)return P.K(c,t)
 while(true)switch(u){case 0:s=P.d
 u=2
-return P.E(G.ej("http://streetfoodapp.herokuapp.com/events/"+H.j(a),P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],s,s)),$async$r5)
+return P.E(G.ej("https://streetfoodapp.herokuapp.com/events/"+H.j(a),P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],s,s)),$async$r5)
 case 2:return P.L(null,t)}})
 return P.M($async$r5,t)},
 rd:function(a){var u=0,t=P.N([P.h,T.F]),s,r,q,p,o,n,m
 var $async$rd=P.O(function(b,c){if(b===1)return P.K(c,t)
 while(true)switch(u){case 0:o=P.d
 u=3
-return P.E(G.cX("http://streetfoodapp.herokuapp.com/event/"+H.j(a)+"/products",P.a0(["Content-Type","application/json; charset=utf-8"],o,o)),$async$rd)
+return P.E(G.cX("https://streetfoodapp.herokuapp.com/event/"+H.j(a)+"/products",P.a0(["Content-Type","application/json; charset=utf-8"],o,o)),$async$rd)
 case 3:n=c
 m=H.r([],[T.F])
 for(o=J.a4(H.fF(J.aI(J.aI(C.f.aA(0,n,null),0),"eventProducts"),"$iw"));o.q();){r=o.gu(o)
@@ -4679,7 +4679,7 @@ fD:function(a,b,c){var u=0,t=P.N(null),s,r,q,p
 var $async$fD=P.O(function(d,e){if(d===1)return P.K(e,t)
 while(true)switch(u){case 0:s=P.d
 r=P.a0(["price",H.j(c)],s,s)
-q=P.q1("http","streetfoodapp.herokuapp.com","/event/"+H.j(a)+"/products",r)
+q=P.q1("https","streetfoodapp.herokuapp.com","/event/"+H.j(a)+"/products",r)
 p=P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],s,s)
 u=2
 return P.E(G.dr(q,C.f.bh(P.a0(["id",b],s,P.q),null),p),$async$fD)
@@ -4690,7 +4690,7 @@ var $async$fB=P.O(function(c,d){if(c===1)return P.K(d,t)
 while(true)switch(u){case 0:s=$.af().c
 r=P.d
 u=2
-return P.E(G.ej("http://streetfoodapp.herokuapp.com/event/"+H.j(a)+"/products/"+H.j(b),P.a0(["Authorization","Bearer "+H.j(s),"Accept","*/*","Content-Type","application/json; charset=utf-8"],r,r)),$async$fB)
+return P.E(G.ej("https://streetfoodapp.herokuapp.com/event/"+H.j(a)+"/products/"+H.j(b),P.a0(["Authorization","Bearer "+H.j(s),"Accept","*/*","Content-Type","application/json; charset=utf-8"],r,r)),$async$fB)
 case 2:return P.L(null,t)}})
 return P.M($async$fB,t)},
 rT:function(a,b,c,d){var u=0,t=P.N(null),s,r,q
@@ -4704,12 +4704,12 @@ case 4:s=$.af().c
 r=P.d
 q=P.a0(["price",H.j(d)],r,r)
 u=5
-return P.E(G.rK(P.q1("http","streetfoodapp.herokuapp.com","/event/"+H.j(a)+"/products/"+H.j(b),q),null,P.a0(["Authorization","Bearer "+H.j(s),"Accept","*/*","Content-Type","application/json; charset=utf-8"],r,r)),$async$rT)
+return P.E(G.rK(P.q1("https","streetfoodapp.herokuapp.com","/event/"+H.j(a)+"/products/"+H.j(b),q),null,P.a0(["Authorization","Bearer "+H.j(s),"Accept","*/*","Content-Type","application/json; charset=utf-8"],r,r)),$async$rT)
 case 5:case 3:return P.L(null,t)}})
 return P.M($async$rT,t)},
 fC:function(a5){var u=0,t=P.N([P.h,S.aS]),s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4
 var $async$fC=P.O(function(a6,a7){if(a6===1)return P.K(a7,t)
-while(true)switch(u){case 0:d="http://streetfoodapp.herokuapp.com/event/"+H.j(a5)+"/orders"
+while(true)switch(u){case 0:d="https://streetfoodapp.herokuapp.com/event/"+H.j(a5)+"/orders"
 c=$.af().c
 b=S.aS
 a=H.r([],[b])
@@ -4726,7 +4726,7 @@ break}p=a1[q].a
 a2=H
 a3=C.f
 u=7
-return P.E(G.cX("http://streetfoodapp.herokuapp.com/event/"+H.j(a5)+"/orders/"+H.j(p),P.a0(["Authorization","Bearer "+H.j(c),"Content-Type","application/json; charset=utf-8"],a0,a0)),$async$fC)
+return P.E(G.cX("https://streetfoodapp.herokuapp.com/event/"+H.j(a5)+"/orders/"+H.j(p),P.a0(["Authorization","Bearer "+H.j(c),"Content-Type","application/json; charset=utf-8"],a0,a0)),$async$fC)
 case 7:o=a2.cD(a3.aA(0,a7,null))
 n=new S.aS()
 n.saR(H.r([],r))
@@ -4767,7 +4767,7 @@ case 1:return P.L(s,t)}})
 return P.M($async$fC,t)},
 qV:function(a,b){var u=0,t=P.N(null),s,r,q,p,o,n,m,l
 var $async$qV=P.O(function(c,d){if(c===1)return P.K(d,t)
-while(true)switch(u){case 0:n="http://streetfoodapp.herokuapp.com/event/"+H.j(a)+"/orders"
+while(true)switch(u){case 0:n="https://streetfoodapp.herokuapp.com/event/"+H.j(a)+"/orders"
 m=$.af().c
 l=H.r([],[[P.C,,,]])
 for(s=b.length,r=P.d,q=P.q,p=0;p<b.length;b.length===s||(0,H.b3)(b),++p)C.b.n(l,P.a0(["id",b[p]],r,q))
@@ -4786,12 +4786,12 @@ var $async$jk=P.O(function(d,e){if(d===1)return P.K(e,t)
 while(true)switch(u){case 0:s=P.d
 r=P.a0(["status",H.j(c)],s,s)
 u=2
-return P.E(G.rK(P.q1("http","streetfoodapp.herokuapp.com","/event/"+H.j(a)+"/orders/"+H.j(b),r),null,P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j($.af().c)],s,s)),$async$jk)
+return P.E(G.rK(P.q1("https","streetfoodapp.herokuapp.com","/event/"+H.j(a)+"/orders/"+H.j(b),r),null,P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j($.af().c)],s,s)),$async$jk)
 case 2:return P.L(null,t)}})
 return P.M($async$jk,t)},
 jf:function(a,b){var u=0,t=P.N(null),s,r,q
 var $async$jf=P.O(function(c,d){if(c===1)return P.K(d,t)
-while(true)switch(u){case 0:s="http://streetfoodapp.herokuapp.com/products/"+H.j(a)+"/ingredients"
+while(true)switch(u){case 0:s="https://streetfoodapp.herokuapp.com/products/"+H.j(a)+"/ingredients"
 r=P.d
 q=P.a0(["Authorization","Bearer "+H.j($.af().c),"Accept","*/*","Content-Type","application/json; charset=utf-8"],r,r)
 u=2
@@ -4807,7 +4807,7 @@ n=H
 m=J
 l=C.f
 u=3
-return P.E(G.cX("http://streetfoodapp.herokuapp.com/products/"+H.j(a)+"/ingredients",P.a0(["Authorization","Bearer "+H.j($.af().c),"Content-Type","application/json; charset=utf-8"],q,q)),$async$rh)
+return P.E(G.cX("https://streetfoodapp.herokuapp.com/products/"+H.j(a)+"/ingredients",P.a0(["Authorization","Bearer "+H.j($.af().c),"Content-Type","application/json; charset=utf-8"],q,q)),$async$rh)
 case 3:o.aJ(n.cD(m.aI(l.aA(0,c,null),"productIngredients")),new X.ri(p))
 q=A.a6
 r=H.l(p,0)
@@ -16225,7 +16225,7 @@ q.b=r.r.b
 u=r.Q==="admin"?q.d=C.w:q.d=C.U
 t=q.a
 u=q.fE(u)
-s="http://streetfoodapp.herokuapp.com/users/"+H.j(t)
+s="https://streetfoodapp.herokuapp.com/users/"+H.j(t)
 t=P.d
 q=P.a0(["Content-Type","application/json; charset=utf-8","Accept","*/*","Authorization","Bearer "+H.j($.af().c)],t,t)
 G.rK(s,C.f.bh(P.a0(["role",u],t,t),null),q)
@@ -16234,7 +16234,7 @@ bx:function(){var u,t=this
 J.fL(t.d,t.y)
 t.f=!1
 u=P.d
-G.ej("http://streetfoodapp.herokuapp.com/users/"+H.j(t.y.a),P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j($.af().c)],u,u))},
+G.ej("https://streetfoodapp.herokuapp.com/users/"+H.j(t.y.a),P.a0(["Content-Type","application/json","Authorization","Bearer "+H.j($.af().c)],u,u))},
 bt:function(){this.c.a.a.b.back()
 return},
 sog:function(a){this.d=H.m(a,"$ih",[N.aA],"$ah")},
